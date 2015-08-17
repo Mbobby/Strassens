@@ -1,0 +1,1 @@
+This program is a program that multiplies 2 matrices whose sizes are not powers of 4 (eg matrice of size 3, 5, 7, 9). This is achieved by padding the matrices to a size of power 4. For example for a 3*3 matrix to be multiplied, it will be padded to a matrix of size 4 * 4, and after the multiplication is done the result will be reduced to the original size.

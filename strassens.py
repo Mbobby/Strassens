@@ -133,25 +133,27 @@ def printMat(mat):
 	for line in mat:
 		print line
 
-print "####################################Test Cases#####################################"
-a = [[1,0,2], [4,1,1], [0,1,3]]
-b = [[0,1,0], [2,1,0], [2,0,1]]
+#Testing the program.
+if __name__ == '__main__':
+	print "####################################Test Cases#####################################"
+	a = [[1,0,2], [4,1,1], [0,1,3]]
+	b = [[0,1,0], [2,1,0], [2,0,1]]
 
-print "The Matrix for A: "
-printMat(a)
-print "The Matrix for B: "
-printMat(b)
-print "The multiplication of a and b: "
-y = strassens(a, b)
-printMat(y)
+	print "The Matrix for A: "
+	printMat(a)
+	print "The Matrix for B: "
+	printMat(b)
+	print "The multiplication of a and b: "
+	y = strassens(a, b)
+	printMat(y)
 
-a = [[1,0,2,1], [4,1,1,0],[0,1,3,0],[5,0,2,1]]
-b = [[0,1,0,1],[2,1,0,4],[2,0,1,1],[1,3,5,0]]
+	a = [[1,0,2,1],[4,1,1,0],[0,1,3,0],[5,0,2,1]]
+	b = [[0,1,0,1],[2,1,0,4],[2,0,1,1],[1,3,5,0]]
 
-print "The Matrix for A: "
-printMat(a)
-print "The Matrix for B: "
-printMat(b)
-print "The multiplication of a and b: "
-y = strassens(a, b)
-printMat(y)
+	print "The Matrix for A: "
+	printMat(a)
+	print "The Matrix for B: "
+	printMat(b)
+	print "The multiplication of a and b: "
+	y = strassens(a, b)
+	printMat(y)
